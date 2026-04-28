@@ -1,0 +1,353 @@
+<svg viewBox="0 0 1920 5400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="navGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a3e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f2e;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d63031;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="coralGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d63031;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffed4e;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="buttonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a3e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f2e;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="deepShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.4" flood-color="#000000"/>
+    </filter>
+  </defs>
+  
+  <g id="header">
+    <rect width="1920" height="80" fill="url(#navGradient)"/>
+    <rect y="60" width="1920" height="20" fill="url(#coralGold)" opacity="0.9"/>
+    <circle cx="60" cy="40" r="35" fill="#ff6b35" opacity="0.9" filter="url(#glow)"/>
+    <circle cx="60" cy="40" r="28" fill="#1a1a3e"/>
+    <text x="60" y="50" font-size="24" font-weight="bold" fill="#ffd700" text-anchor="middle" font-family="Arial Black">BD</text>
+    <text x="180" y="45" font-size="14" font-weight="600" fill="#ffffff" font-family="Arial">CAR</text>
+    <text x="280" y="45" font-size="14" font-weight="600" fill="#ffffff" font-family="Arial">HOME</text>
+    <text x="400" y="45" font-size="14" font-weight="600" fill="#ffffff" font-family="Arial">TRAVEL</text>
+    <text x="520" y="45" font-size="14" font-weight="600" fill="#ffffff" font-family="Arial">PET</text>
+    <text x="630" y="45" font-size="14" font-weight="600" fill="#ffffff" font-family="Arial">BIKE</text>
+    <text x="1700" y="45" font-size="13" font-weight="600" fill="#ff6b35" font-family="Arial">CONTACT</text>
+    <text x="1820" y="45" font-size="13" font-weight="600" fill="#ff6b35" font-family="Arial">LOGIN</text>
+    <rect x="1800" y="25" width="90" height="50" rx="25" fill="#ffd700" filter="url(#glow)"/>
+    <text x="1845" y="55" font-family="Arial Black" font-size="14" font-weight="bold" fill="#1a1a3e" text-anchor="middle">LOGIN</text>
+  </g>
+  
+  <g id="hero-section">
+    <rect y="80" width="1920" height="600" fill="url(#heroGradient)"/>
+    <circle cx="200" cy="250" r="180" fill="#ffd700" opacity="0.15"/>
+    <rect x="300" y="150" width="400" height="400" fill="#ff6b35" opacity="0.12" transform="rotate(25 500 350)"/>
+    <polygon points="1600,150 1750,500 1450,500" fill="#ffd700" opacity="0.1"/>
+    <path d="M 0 600 Q 240 550 480 600 T 960 600 T 1440 600 T 1920 600 L 1920 680 L 0 680 Z" fill="#1a1a3e" opacity="0.3"/>
+    <rect x="0" y="350" width="150" height="250" fill="#ff6b35" opacity="0.2"/>
+    <rect x="1750" y="200" width="200" height="300" fill="#ffd700" opacity="0.15" transform="rotate(-20 1850 350)"/>
+    <text x="960" y="220" font-family="Arial Black" font-size="72" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2" filter="url(#glow)">WIN!</text>
+    <text x="960" y="320" font-family="Arial Black" font-size="56" font-weight="900" fill="#ffd700" text-anchor="middle" letter-spacing="1">SOUTHS GUY'S SUITE</text>
+    <text x="960" y="380" font-family="Arial" font-size="32" font-weight="600" fill="#ffffff" text-anchor="middle">Random Giveaway</text>
+    <rect x="550" y="420" width="820" height="90" rx="15" fill="#000000" opacity="0.3" stroke="#ffd700" stroke-width="3"/>
+    <rect x="550" y="420" width="30" height="30" fill="none" stroke="#ffd700" stroke-width="3"/>
+    <rect x="1340" y="420" width="30" height="30" fill="none" stroke="#ffd700" stroke-width="3" transform="translate(-30 0)"/>
+    <text x="960" y="455" font-family="Arial" font-size="18" font-weight="bold" fill="#ffd700" text-anchor="middle">Rabbitohs v Knights | Accor Stadium</text>
+    <text x="960" y="490" font-family="Arial" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Sunday 12 July 2026 | Corporate Suite | Catering Included</text>
+  </g>
+  
+  <g id="feature-cards">
+    <g filter="url(#deepShadow)">
+      <rect x="80" y="730" width="320" height="280" rx="20" fill="url(#cardGradient1)" opacity="0.95"/>
+      <polygon points="80,730 150,730 100,690 50,700" fill="#ffd700"/>
+      <circle cx="240" cy="785" r="35" fill="#ffd700" opacity="0.2"/>
+      <circle cx="240" cy="785" r="28" fill="none" stroke="#ffd700" stroke-width="3"/>
+      <text x="240" y="795" font-family="Arial" font-size="36" font-weight="bold" fill="#ffd700" text-anchor="middle">★</text>
+      <text x="240" y="860" font-family="Arial Black" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">RANDOM DRAW</text>
+      <text x="240" y="920" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle"><tspan x="240" dy="0">All entries have equal</tspan><tspan x="240" dy="18">chance to win</tspan></text>
+    </g>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="500" y="730" width="320" height="280" rx="20" fill="url(#cardGradient2)" opacity="0.95"/>
+      <polygon points="500,730 570,730 520,690 470,700" fill="#ff6b35"/>
+      <circle cx="660" cy="785" r="35" fill="#ff6b35" opacity="0.2"/>
+      <circle cx="660" cy="785" r="28" fill="none" stroke="#ff6b35" stroke-width="3"/>
+      <text x="660" y="800" font-family="Arial" font-size="32" font-weight="bold" fill="#ff6b35" text-anchor="middle">$2K+</text>
+      <text x="660" y="860" font-family="Arial Black" font-size="20" font-weight="900" fill="#1a1a3e" text-anchor="middle">VALUE PRIZE</text>
+      <text x="660" y="920" font-family="Arial" font-size="14" font-weight="500" fill="#1a1a3e" text-anchor="middle"><tspan x="660" dy="0">Includes premium</tspan><tspan x="660" dy="18">catering & drinks</tspan></text>
+    </g>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="920" y="730" width="320" height="280" rx="20" fill="#1a1a3e" opacity="0.95" stroke="#ffd700" stroke-width="3"/>
+      <polygon points="920,730 990,730 940,690 890,700" fill="#ff6b35"/>
+      <circle cx="1080" cy="785" r="35" fill="#ff6b35" opacity="0.2"/>
+      <circle cx="1080" cy="785" r="28" fill="none" stroke="#ff6b35" stroke-width="3"/>
+      <text x="1080" y="795" font-family="Arial" font-size="28" font-weight="bold" fill="#ff6b35" text-anchor="middle">🎟</text>
+      <text x="1080" y="860" font-family="Arial Black" font-size="20" font-weight="900" fill="#ffd700" text-anchor="middle">EXCLUSIVE ACCESS</text>
+      <text x="1080" y="920" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle"><tspan x="1080" dy="0">Premium stadium</tspan><tspan x="1080" dy="18">experience awaits</tspan></text>
+    </g>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="1340" y="730" width="320" height="280" rx="20" fill="url(#cardGradient1)" opacity="0.95"/>
+      <polygon points="1340,730 1410,730 1360,690 1310,700" fill="#ffd700"/>
+      <circle cx="1500" cy="785" r="35" fill="#ffd700" opacity="0.2"/>
+      <circle cx="1500" cy="785" r="28" fill="none" stroke="#ffd700" stroke-width="3"/>
+      <text x="1500" y="800" font-family="Arial" font-size="36" font-weight="bold" fill="#ffd700" text-anchor="middle">🎉</text>
+      <text x="1500" y="860" font-family="Arial Black" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">GUARANTEED FUN</text>
+      <text x="1500" y="920" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle"><tspan x="1500" dy="0">Entertainment and</tspan><tspan x="1500" dy="18">memories for life</tspan></text>
+    </g>
+    
+    <line x1="50" y1="1020" x2="1870" y2="1020" stroke="#ff6b35" stroke-width="3" opacity="0.5"/>
+    <circle cx="960" cy="1020" r="12" fill="#ffd700" filter="url(#glow)"/>
+  </g>
+  
+  <g id="form-section">
+    <rect y="1050" width="1920" height="700" fill="#f5f5f5"/>
+    <circle cx="100" cy="1200" r="80" fill="#ff6b35" opacity="0.08"/>
+    <circle cx="1820" cy="1450" r="100" fill="#ffd700" opacity="0.08"/>
+    <rect x="800" y="1050" width="300" height="300" fill="#1a1a3e" opacity="0.03" transform="rotate(20 950 1200)"/>
+    <text x="960" y="1120" font-family="Arial Black" font-size="48" font-weight="900" fill="#1a1a3e" text-anchor="middle" letter-spacing="2">ENTER TO WIN</text>
+    <text x="960" y="1165" font-family="Arial" font-size="18" font-weight="500" fill="#666666" text-anchor="middle">Complete the form below for your chance to win this incredible prize</text>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="400" y="1210" width="1120" height="480" rx="25" fill="#1a1a3e" opacity="0.98" stroke="#ff6b35" stroke-width="3"/>
+      <rect x="400" y="1210" width="1120" height="15" rx="25" fill="url(#coralGold)" opacity="0.9"/>
+      
+      <rect x="450" y="1260" width="500" height="55" rx="12" fill="#0f0f2e" stroke="#ff6b35" stroke-width="2" opacity="0.8"/>
+      <text x="470" y="1280" font-family="Arial" font-size="13" font-weight="600" fill="#ffd700" letter-spacing="0.5">FIRST NAME</text>
+      <text x="470" y="1305" font-family="Arial" font-size="14" font-weight="400" fill="#ffffff">Your first name</text>
+      
+      <rect x="1000" y="1260" width="500" height="55" rx="12" fill="#0f0f2e" stroke="#ffd700" stroke-width="2" opacity="0.8"/>
+      <text x="1020" y="1280" font-family="Arial" font-size="13" font-weight="600" fill="#ff6b35" letter-spacing="0.5">LAST NAME</text>
+      <text x="1020" y="1305" font-family="Arial" font-size="14" font-weight="400" fill="#ffffff">Your last name</text>
+      
+      <rect x="450" y="1340" width="500" height="55" rx="12" fill="#0f0f2e" stroke="#ff6b35" stroke-width="2" opacity="0.8"/>
+      <text x="470" y="1360" font-family="Arial" font-size="13" font-weight="600" fill="#ffd700" letter-spacing="0.5">EMAIL ADDRESS</text>
+      <text x="470" y="1385" font-family="Arial" font-size="14" font-weight="400" fill="#ffffff">your@email.com</text>
+      
+      <rect x="1000" y="1340" width="500" height="55" rx="12" fill="#0f0f2e" stroke="#ffd700" stroke-width="2" opacity="0.8"/>
+      <text x="1020" y="1360" font-family="Arial" font-size="13" font-weight="600" fill="#ff6b35" letter-spacing="0.5">MOBILE NUMBER</text>
+      <text x="1020" y="1385" font-family="Arial" font-size="14" font-weight="400" fill="#ffffff">0412 345 678</text>
+      
+      <rect x="450" y="1420" width="1050" height="65" rx="12" fill="#0f0f2e" stroke="#ff6b35" stroke-width="2" opacity="0.7"/>
+      <rect x="470" y="1435" width="24" height="24" rx="4" fill="#ffd700" stroke="#ff6b35" stroke-width="2"/>
+      <text x="482" y="1454" font-family="Arial" font-size="18" font-weight="bold" fill="#1a1a3e" text-anchor="middle">✓</text>
+      <text x="510" y="1445" font-family="Arial" font-size="12" font-weight="600" fill="#ffd700">I agree to the Terms & Conditions and Privacy Policy</text>
+      
+      <rect x="500" y="1530" width="920" height="70" rx="20" fill="url(#buttonGrad)" opacity="0.95" filter="url(#glow)"/>
+      <polygon points="500,1530 530,1530 515,1505" fill="#1a1a3e" opacity="0.5"/>
+      <polygon points="1420,1530 1450,1530 1435,1505" fill="#1a1a3e" opacity="0.5"/>
+      <text x="960" y="1575" font-family="Arial Black" font-size="24" font-weight="900" fill="#1a1a3e" text-anchor="middle" letter-spacing="1">ENTER THE DRAW</text>
+    </g>
+  </g>
+  
+  <g id="social-proof">
+    <rect y="1750" width="1920" height="500" fill="#ffffff"/>
+    <text x="960" y="1820" font-family="Arial Black" font-size="48" font-weight="900" fill="#1a1a3e" text-anchor="middle" letter-spacing="2">WHY ENTER?</text>
+    <line x1="600" y1="1850" x2="1320" y2="1850" stroke="url(#coralGold)" stroke-width="3"/>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="100" y="1900" width="380" height="300" rx="15" fill="#ff6b35" opacity="0.95"/>
+      <polygon points="100,1900 170,1900 135,1865" fill="#ffd700"/>
+      <circle cx="290" cy="1975" r="45" fill="#ffd700" opacity="0.2"/>
+      <text x="290" y="1990" font-family="Arial Black" font-size="32" font-weight="900" fill="#ffd700" text-anchor="middle">🏟</text>
+      <text x="290" y="2060" font-family="Arial Black" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">PREMIUM VENUE</text>
+      <text x="290" y="2115" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle"><tspan x="290" dy="0">Experience the best</tspan><tspan x="290" dy="18">stadium in the NRL</tspan></text>
+    </g>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="570" y="1900" width="380" height="300" rx="15" fill="url(#cardGradient2)" opacity="0.95"/>
+      <polygon points="570,1900 640,1900 605,1865" fill="#1a1a3e"/>
+      <circle cx="760" cy="1975" r="45" fill="#1a1a3e" opacity="0.2"/>
+      <text x="760" y="1990" font-family="Arial Black" font-size="32" font-weight="900" fill="#1a1a3e" text-anchor="middle">🍽</text>
+      <text x="760" y="2060" font-family="Arial Black" font-size="18" font-weight="900" fill="#1a1a3e" text-anchor="middle">GOURMET CATERING</text>
+      <text x="760" y="2115" font-family="Arial" font-size="14" font-weight="500" fill="#1a1a3e" text-anchor="middle"><tspan x="760" dy="0">World-class food & drinks</tspan><tspan x="760" dy="18">all included in the package</tspan></text>
+    </g>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="1040" y="1900" width="380" height="300" rx="15" fill="#1a1a3e" opacity="0.95" stroke="#ffd700" stroke-width="3"/>
+      <polygon points="1040,1900 1110,1900 1075,1865" fill="#ff6b35"/>
+      <circle cx="1230" cy="1975" r="45" fill="#ff6b35" opacity="0.2"/>
+      <text x="1230" y="1990" font-family="Arial Black" font-size="32" font-weight="900" fill="#ffd700" text-anchor="middle">⭐</text>
+      <text x="1230" y="2060" font-family="Arial Black" font-size="18" font-weight="900" fill="#ffd700" text-anchor="middle">VIP TREATMENT</text>
+      <text x="1230" y="2115" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff" text-anchor="middle"><tspan x="1230" dy="0">Red carpet treatment</tspan><tspan x="1230" dy="18">& exclusive access</tspan></text>
+    </g>
+    
+    <g filter="url(#deepShadow)">
+      <rect x="1510" y="1900" width="310" height="300" rx="15" fill="url(#cardGradient1)" opacity="0.95"/>
+      <polygon points="1510,1900 1570,1900 1540,1865" fill="#ffd700"/>
+      <circle cx="1665" cy="1975" r="45" fill="#ffd700" opacity="0.2"/>
+      <text x="1665" y="1990" font-family="Arial Black" font-size="32" font-weight="900" fill="#ffd700" text-anchor="middle">🎊</text>
+      <text x="1665" y="2060" font-family="Arial Black" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">MEMORIES</text>
+      <text x="1665" y="2115" font-family="Arial" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle"><tspan x="1665" dy="0">Unforgettable</tspan><tspan x="1665" dy="16">lifetime moments</tspan></text>
+    </g>
+  </g>
+  
+  <g id="how-it-works">
+    <defs>
+      <linearGradient id="sectionBg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <rect y="2250" width="1920" height="550" fill="url(#sectionBg)"/>
+    <circle cx="150" cy="2400" r="120" fill="#ff6b35" opacity="0.08"/>
+    <circle cx="1800" cy="2600" r="150" fill="#ffd700" opacity="0.06"/>
+    <text x="960" y="2330" font-family="Arial Black" font-size="48" font-weight="900" fill="#1a1a3e" text-anchor="middle" letter-spacing="2">HOW IT WORKS</text>
+    
+    <g>
+      <circle cx="300" cy="2500" r="50" fill="#ff6b35" opacity="0.95" filter="url(#glow)"/>
+      <circle cx="300" cy="2500" r="40" fill="#1a1a3e"/>
+      <text x="300" y="2515" font-family="Arial Black" font-size="28" font-weight="900" fill="#ffd700" text-anchor="middle">1</text>
+      <text x="300" y="2600" font-family="Arial Black" font-size="18" font-weight="900" fill="#1a1a3e" text-anchor="middle">FILL FORM</text>
+      <text x="300" y="2635" font-family="Arial" font-size="14" font-weight="500" fill="#666666" text-anchor="middle">Enter your details</text>
+    </g>
+    
+    <line x1="350" y1="2500" x2="610" y2="2500" stroke="#ff6b35" stroke-width="3" opacity="0.6"/>
+    <polygon points="615,2500 605,2495 605,2505" fill="#ff6b35" opacity="0.6"/>
+    
+    <g>
+      <circle cx="700" cy="2500" r="50" fill="#ffd700" opacity="0.95" filter="url(#glow)"/>
+      <circle cx="700" cy="2500" r="40" fill="#1a1a3e"/>
+      <text x="700" y="2515" font-family="Arial Black" font-size="28" font-weight="900" fill="#1a1a3e" text-anchor="middle">2</text>
+      <text x="700" y="2600" font-family="Arial Black" font-size="18" font-weight="900" fill="#1a1a3e" text-anchor="middle">SUBMIT</text>
+      <text x="700" y="2635" font-family="Arial" font-size="14" font-weight="500" fill="#666666" text-anchor="middle">Confirm entry</text>
+    </g>
+    
+    <line x1="750" y1="2500" x2="1010" y2="2500" stroke="#ffd700" stroke-width="3" opacity="0.6"/>
+    <polygon points="1015,2500 1005,2495 1005,2505" fill="#ffd700" opacity="0.6"/>
+    
+    <g>
+      <circle cx="1100" cy="2500" r="50" fill="#ff6b35" opacity="0.95" filter="url(#glow)"/>
+      <circle cx="1100" cy="2500" r="40" fill="#1a1a3e"/>
+      <text x="1100" y="2515" font-family="Arial Black" font-size="28" font-weight="900" fill="#ffd700" text-anchor="middle">3</text>
+      <text x="1100" y="2600" font-family="Arial Black" font-size="18" font-weight="900" fill="#1a1a3e" text-anchor="middle">ENTER DRAW</text>
+      <text x="1100" y="2635" font-family="Arial" font-size="14" font-weight="500" fill="#666666" text-anchor="middle">Join the pool</text>
+    </g>
+    
+    <line x1="1150" y1="2500" x2="1410" y2="2500" stroke="#ff6b35" stroke-width="3" opacity="0.6"/>
+    <polygon points="1415,2500 1405,2495 1405,2505" fill="#ff6b35" opacity="0.6"/>
+    
+    <g>
+      <circle cx="1500" cy="2500" r="50" fill="#ffd700" opacity="0.95" filter="url(#glow)"/>
+      <circle cx="1500" cy="2500" r="40" fill="#1a1a3e"/>
+      <text x="1500" y="2515" font-family="Arial Black" font-size="28" font-weight="900" fill="#1a1a3e" text-anchor="middle">4</text>
+      <text x="1500" y="2600" font-family="Arial Black" font-size="18" font-weight="900" fill="#1a1a3e" text-anchor="middle">WIN!</text>
+      <text x="1500" y="2635" font-family="Arial" font-size="14" font-weight="500" fill="#666666" text-anchor="middle">Enjoy your prize</text>
+    </g>
+    
+    <line x1="1550" y1="2500" x2="1660" y2="2500" stroke="#ffd700" stroke-width="3" opacity="0.6"/>
+    <polygon points="1665,2500 1655,2495 1655,2505" fill="#ffd700" opacity="0.6"/>
+    
+    <g>
+      <circle cx="1750" cy="2500" r="50" fill="#ff6b35" opacity="0.95" filter="url(#glow)"/>
+      <text x="1750" y="2515" font-family="Arial" font-size="40" font-weight="bold" fill="#ffd700" text-anchor="middle">🎉</text>
+      <text x="1750" y="2600" font-family="Arial Black" font-size="18" font-weight="900" fill="#1a1a3e" text-anchor="middle">CELEBRATE</text>
+      <text x="1750" y="2635" font-family="Arial" font-size="14" font-weight="500" fill="#666666" text-anchor="middle">All expense paid</text>
+    </g>
+  </g>
+  
+  <g id="terms-section">
+    <rect y="2800" width="1920" height="200" fill="#1a1a3e" opacity="0.05"/>
+    <text x="960" y="2870" font-family="Arial Black" font-size="24" font-weight="900" fill="#1a1a3e" text-anchor="middle" letter-spacing="1">TERMS & CONDITIONS</text>
+    <text x="960" y="2920" font-family="Arial" font-size="13" font-weight="500" fill="#666666" text-anchor="middle"><tspan x="960" dy="0">This is a promotional campaign by Budget Direct Insurance in partnership with South Sydney Rabbitohs.</tspan><tspan x="960" dy="20">Random draw entries close 30 June 2026. Winner announced 1 July 2026. T&amp;Cs apply. See full details.</tspan></text>
+  </g>
+  
+  <g id="footer">
+    <rect y="3000" width="1920" height="2400" fill="url(#footerGradient)"/>
+    <line x1="0" y1="3000" x2="1920" y2="3000" stroke="#ffd700" stroke-width="4"/>
+    
+    <text x="100" y="3100" font-family="Arial Black" font-size="18" font-weight="900" fill="#ffd700" letter-spacing="1">CAR INSURANCE</text>
+    <line x1="100" y1="3115" x2="300" y2="3115" stroke="#ffd700" stroke-width="2" opacity="0.5"/>
+    <text x="100" y="3160" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Comprehensive Cover</text>
+    <text x="100" y="3190" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Third Party Liability</text>
+    <text x="100" y="3220" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Budget Breakdown</text>
+    <text x="100" y="3250" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Quote & Compare</text>
+    <text x="100" y="3280" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Claims Support</text>
+    
+    <text x="500" y="3100" font-family="Arial Black" font-size="18" font-weight="900" fill="#ffd700" letter-spacing="1">HOME INSURANCE</text>
+    <line x1="500" y1="3115" x2="700" y2="3115" stroke="#ffd700" stroke-width="2" opacity="0.5"/>
+    <text x="500" y="3160" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Home & Contents</text>
+    <text x="500" y="3190" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Landlord Insurance</text>
+    <text x="500" y="3220" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Strata Insurance</text>
+    <text x="500" y="3250" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Pet Insurance</text>
+    <text x="500" y="3280" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Travel Insurance</text>
+    
+    <text x="900" y="3100" font-family="Arial Black" font-size="18" font-weight="900" fill="#ffd700" letter-spacing="1">COMPANY</text>
+    <line x1="900" y1="3115" x2="1100" y2="3115" stroke="#ffd700" stroke-width="2" opacity="0.5"/>
+    <text x="900" y="3160" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">About Budget Direct</text>
+    <text x="900" y="3190" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Careers</text>
+    <text x="900" y="3220" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Blog & News</text>
+    <text x="900" y="3250" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Contact Us</text>
+    <text x="900" y="3280" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Store Locator</text>
+    
+    <text x="1300" y="3100" font-family="Arial Black" font-size="18" font-weight="900" fill="#ffd700" letter-spacing="1">SUPPORT</text>
+    <line x1="1300" y1="3115" x2="1500" y2="3115" stroke="#ffd700" stroke-width="2" opacity="0.5"/>
+    <text x="1300" y="3160" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">FAQ</text>
+    <text x="1300" y="3190" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Make a Claim</text>
+    <text x="1300" y="3220" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Review a Quote</text>
+    <text x="1300" y="3250" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Feedback</text>
+    <text x="1300" y="3280" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Complaints</text>
+    
+    <text x="1700" y="3100" font-family="Arial Black" font-size="18" font-weight="900" fill="#ffd700" letter-spacing="1">LEGAL</text>
+    <line x1="1700" y1="3115" x2="1900" y2="3115" stroke="#ffd700" stroke-width="2" opacity="0.5"/>
+    <text x="1700" y="3160" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Privacy Policy</text>
+    <text x="1700" y="3190" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Terms & Conditions</text>
+    <text x="1700" y="3220" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Financial Services</text>
+    <text x="1700" y="3250" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Accessibility</text>
+    <text x="1700" y="3280" font-family="Arial" font-size="14" font-weight="500" fill="#ffffff">Sitemap</text>
+    
+    <text x="100" y="3380" font-family="Arial Black" font-size="16" font-weight="900" fill="#ffd700" letter-spacing="1">FOLLOW US</text>
+    
+    <circle cx="100" cy="3450" r="30" fill="#ff6b35" opacity="0.95" filter="url(#glow)"/>
+    <text x="100" y="3465" font-family="Arial" font-size="20" font-weight="bold" fill="#ffd700" text-anchor="middle">f</text>
+    
+    <circle cx="180" cy="3450" r="30" fill="#ff6b35" opacity="0.95" filter="url(#glow)"/>
+    <text x="180" y="3465" font-family="Arial" font-size="20" font-weight="bold" fill="#ffd700" text-anchor="middle">𝕏</text>
+    
+    <circle cx="260" cy="3450" r="30" fill="#ff6b35" opacity="0.95" filter="url(#glow)"/>
+    <text x="260" y="3465" font-family="Arial" font-size="18" font-weight="bold" fill="#ffd700" text-anchor="middle">in</text>
+    
+    <circle cx="340" cy="3450" r="30" fill="#ff6b35" opacity="0.95" filter="url(#glow)"/>
+    <text x="340" y="3465" font-family="Arial" font-size="20" font-weight="bold" fill="#ffd700" text-anchor="middle">📸</text>
+    
+    <line x1="100" y1="3550" x2="1820" y2="3550" stroke="#ffd700" stroke-width="2" opacity="0.3"/>
+    
+    <text x="960" y="3650" font-family="Arial" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">© 2026 Budget Direct Insurance. All rights reserved.</text>
+    <text x="960" y="3690" font-family="Arial" font-size="13" font-weight="500" fill="#cccccc" text-anchor="middle">ABN 12 345 678 901 | AFSL License: 123456</text>
+    <text x="960" y="3730" font-family="Arial" font-size="12" font-weight="400" fill="#999999" text-anchor="middle">This promotional campaign is in partnership with South Sydney Rabbitohs.</text>
+    <text x="960" y="3770" font-family="Arial" font-size="12" font-weight="400" fill="#999999" text-anchor="middle">Promoter: Budget Direct Insurance Limited | Australian Company</text>
+    
+    <circle cx="150" cy="4000" r="100" fill="#ff6b35" opacity="0.06"/>
+    <circle cx="1800" cy="4100" r="120" fill="#ffd700" opacity="0.05"/>
+    <rect x="900" y="4000" width="200" height="200" fill="#1a1a3e" opacity="0.03" transform="rotate(15 1000 4100)"/>
+  </g>
+</svg>
